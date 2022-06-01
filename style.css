@@ -107,7 +107,7 @@ main h1{
 }
 
 .competencias p{
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 .competencias h3{
@@ -115,13 +115,13 @@ main h1{
     margin: 15px 0;
 }
 
-a{
+main a{
     text-decoration: none;
     color: blue;
-    transition: 0.5s;
+    transition: 0.75s;
 }
 
-a:hover{
+main a:hover{
     text-decoration: underline;
     color: darkblue;
 }
