@@ -43,11 +43,6 @@ header{
     transition: 0.5s color;
 }
 
-.caixa a:hover{
-    text-decoration: underline;
-    color: #31393c;
-}
-
 /* MAIN */
 
 main{
@@ -118,12 +113,6 @@ main h1{
 main a{
     text-decoration: none;
     color: blue;
-    transition: 0.75s color;
-}
-
-main a:hover{
-    text-decoration: underline;
-    color: darkblue;
 }
 
 /* CONTATOS */
@@ -163,6 +152,12 @@ footer:not(#full){
     width: 100%;
     bottom: 0;
 }
+
+.main-hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
 /* cor de fundo
     background: #31393c; */
 
