@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #31393c;
+    font-size: 1.4em;
+}
+
+/* HEADER */
+
+header{
+    background: #2176ff;
+}
+
+.caixa{
+    position: relative;
+    width: 50%;
+    padding: 75px 0;
+    margin: 0 auto;
+}
+
+.caixa h1{
+    font-weight: bold;
+    font-size: 2em;
+    color: #31393c;
+}
+
+.caixa nav{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.caixa li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.caixa a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.caixa a:hover{
+    text-decoration: underline;
+    color: #31393c;
+}
+
+/* MAIN */
+
+main{
+    width: 940px;
+    background: #33a1fd;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+main h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* INDEX */
+
+.principal p{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.principal img{
+    width: 350px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #31393c;
+    transition: 0.5s opacity;
+}
+
+.principal img:hover{
+    opacity: 0.5;
+}
+
+.principal h2{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+
+}
+
+/* CURRICULO */
+
+.competencias{
+    margin: 25px 0 25px 5%;
+    width: 80%;
+}
+
+.competencias h2{
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.competencias p{
+    margin: 8px 0;
+}
+
+.competencias h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    transition: 0.5s;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+/* CONTATOS */
+
+.contatos{
+    margin: 30px 5%;
+}
+
+.contatos p{
+    margin: 10px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    margin: 30px 5%;
+}
+
+.portfolio p{
+    margin: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 5% 0 0 0;
+    background: #2176ff;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+footer:not(#full){
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* cor de fundo
+    background: #31393c; */
+
+/* cor de fundo do header
+    background: #2176ff; */
+
+/* cor de fundo do principal
+        background: #33a1fd; */
