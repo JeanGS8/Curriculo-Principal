@@ -107,7 +107,7 @@ main h1{
 }
 
 .competencias p{
-    margin: 8px 0;
+    margin: 15px 0;
 }
 
 .competencias h3{
@@ -163,7 +163,6 @@ footer:not(#full){
     width: 100%;
     bottom: 0;
 }
-
 /* cor de fundo
     background: #31393c; */
 
